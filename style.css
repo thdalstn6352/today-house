@@ -1,0 +1,25 @@
+p {
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  color: #3da5f5;
+}
+
+@media screen and (min-width: 768px) {
+  .section {
+    color: red;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section {
+    color: blue;
+  }
+}
+
+.modal {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/*# sourceMappingURL=style.css.map */
