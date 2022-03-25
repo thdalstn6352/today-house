@@ -1,6 +1,5 @@
 %tag-base {
-  // 공통 스타일
-  @include inline-flexbox();
+  @include inline-flexbox;
   @include text-style(12);
   height: 20px;
   padding: 0 6px;
@@ -10,8 +9,8 @@
 
 .tag-red {
   @extend %tag-base;
-  background-color: $red;
   color: $white;
+  background-color: $red;
 }
 
 .tag-green {
@@ -19,8 +18,9 @@
   color: $white;
   background-color: $green;
 }
+
 .tag-gray {
   @extend %tag-base;
   color: $secondary;
-  background-color: border;
+  background-color: $border;
 }
